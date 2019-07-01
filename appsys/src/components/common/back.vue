@@ -1,5 +1,6 @@
 <template>
   <div class="back">
+    <!-- 添加了一条注释 -->
     <div class="img" @touchend="$router.go(-1)">
       <img src="../../../static/img/nav_icon_back.png" alt>
     </div>
